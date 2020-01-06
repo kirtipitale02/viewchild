@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { ChangecolorDirective } from './changecolor.directive';
+import { ColorchangeComponent } from './colorchange/colorchange.component';
+import { ThemeComponent } from './theme/theme.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParentComponent,
+    ChildComponent,
+    ChangecolorDirective,
+    ColorchangeComponent,
+    ThemeComponent
   ],
   imports: [
     BrowserModule,
